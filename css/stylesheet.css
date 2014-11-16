@@ -1,10 +1,9 @@
 body{
-	background-color: ABD1D9;
+	background: #ABD1D9 ("\erincarlson.github.io\css\images\erincarlson.jpg");
 	margin-left: 20%;
 	margin-top: 10%;
 	margin-right: 20%;
 	margin-bottom: 10%;
-
 }
 
 h1{
