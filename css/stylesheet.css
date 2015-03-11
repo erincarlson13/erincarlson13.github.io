@@ -4,6 +4,7 @@ body{
 	margin-top: 3%;
 	margin-bottom: 10%;
 	font-family: Palatino Linotype;
+	text-decoration-color: 68D1E8;
 
 }
 
@@ -21,12 +22,11 @@ h4 {
 }
 
 img{
+	opacity: .4;
 	float: right;
 	margin-left: 3%;
 	margin-right: 0;
 	margin-top: 0;
-	text-decoration-color: 68D1E8;
-	opacity: .4;
 }
 
 img:hover{
