@@ -22,7 +22,7 @@ h4 {
 }
 
 img{
-	opacity: .4;
+	opacity: 1.0;
 	float: right;
 	margin-left: 3%;
 	margin-right: 0;
@@ -30,5 +30,5 @@ img{
 }
 
 img:hover{
-	opacity: 1.0;
+	opacity: .4;
 }
