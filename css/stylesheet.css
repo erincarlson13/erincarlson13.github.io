@@ -28,3 +28,6 @@ img{
 	text-decoration-color: 68D1E8;
 }
 
+img:hover{
+	opacity: 1.0;
+}
