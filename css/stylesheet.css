@@ -41,6 +41,7 @@ h4 {
 	float:right;
 	background:#FFF;
 	opacity:0;
+	border-radius:25px;
 	} 
 
 #erinPic:hover #bioText {
@@ -49,7 +50,7 @@ h4 {
 	font-size:20px;
 	font-weight:700;
 	font-family: Palatino Linotype;
-	padding-top:50%;
+	padding-top:60%;
 	padding-right: 20px;
 	padding-left: 20px;
 }
