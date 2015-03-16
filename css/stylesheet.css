@@ -1,16 +1,16 @@
 body{
 	background-color: #FFFACD;
-	padding-top:2%;
 	font-family: Palatino Linotype;
-	text-decoration-color: 68D1E8;
 
 }
 
 h1{
 	font-family: Palatino Linotype;
 	padding-top: 1%;
-	font-size:2em;
+	padding-bottom: 1%;
+	font-size:1.5em;
 	font-weight:bold;
+	text-align: center;
 }
 
 h2 {
@@ -24,16 +24,39 @@ h4 {
 	font-family: Palatino Linotype;
 }
 
-#name{
-	font-family:Bookman;
-	font-size:35px;
+p {
+	font-size: 1.1em;
 }
 
-#jumbotron{
-	
+li {
+	font-size: 1.1em;
+}
+
+#name{
+	font-size:2em;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+.jumbotron{
+	background-color: #020824;
+	padding-top:2%;
+	padding-bottom:2%;
+	color: #f2f2f2;
+}
+
+#bio{
+	padding-right: 10%;
+	padding-left:10%;
+	text-align: center;
 }
 
 .col-md-4{
+	padding-top:2%;
+}
+
+.col-md-6{
+	padding-top:2%;
 }
 
 .li{
@@ -41,28 +64,43 @@ h4 {
 }
 
 .container{
-	background-color: #FFFACD;
+	padding-bottom: 3%;
+}
+
+
+.techAssociate{
+	padding-top: 1%;
+	padding-right: 3%;
+
+}
+
+
+
+img{
+	padding-bottom: 1%;
+	padding-right: 2%;
+	padding-bottom: 1%;
+	border-radius: 5em;
+}
+
+.techAssociate{
+	float:left
+}
+
+.techAssociate2{
+	margin-left: 2%;
 }
 
 .image{
 	text-align:center;
+	border-radius:0em;
 }
 
 .text{
 	text-align:center;
 }
 
-#erinPic{
-	width:500px;
-	height:696px;
-	float:left;
-	background-image:url("erincarlson_cropped.JPG");
-	margin-right:5%;
-	margin-top: 2%;
-	border-radius:25px;
-	} 
-
-#bioText{
+/*#bioText{
 	width:500px;
 	height:696px;
 	float:right;
