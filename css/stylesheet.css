@@ -32,11 +32,14 @@ li {
 	font-size: 1.1em;
 }
 
-img{
+#mainpic{
 	padding-bottom: 1%;
 	padding-right: 2%;
-	padding-bottom: 1%;
 	border-radius: 5em;
+}
+
+.imgcenter{
+	text-align: center;
 }
 
 .jumbotron{
@@ -87,11 +90,6 @@ img{
 
 .techAssociate2{
 	margin-left: 2%;
-}
-
-.image{
-	text-align:center;
-	border-radius:0em;
 }
 
 .text{
