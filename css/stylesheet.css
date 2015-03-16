@@ -1,5 +1,5 @@
 body{
-	background-color: #FFFACD;
+	background-color: #f2f2f2;
 	font-family: Palatino Linotype;
 
 }
@@ -32,23 +32,30 @@ li {
 	font-size: 1.1em;
 }
 
-#name{
-	font-size:2em;
-	text-align: center;
-	padding-bottom: 2%;
+img{
+	padding-bottom: 1%;
+	padding-right: 2%;
+	padding-bottom: 1%;
+	border-radius: 5em;
 }
 
 .jumbotron{
 	background-color: #020824;
 	padding-top:2%;
 	padding-bottom:2%;
-	color: #f2f2f2;
+	color:#ffffff;
+}
+
+#name{
+
 }
 
 #bio{
 	padding-right: 10%;
 	padding-left:10%;
 	text-align: center;
+	font-size: 1.2em;
+	color:#E9E581;
 }
 
 .col-md-4{
@@ -74,17 +81,8 @@ li {
 
 }
 
-
-
-img{
-	padding-bottom: 1%;
-	padding-right: 2%;
-	padding-bottom: 1%;
-	border-radius: 5em;
-}
-
 .techAssociate{
-	float:left
+	float:left;
 }
 
 .techAssociate2{
