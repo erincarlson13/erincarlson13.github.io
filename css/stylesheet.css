@@ -38,11 +38,35 @@ li {
 	padding-left: 2%;
 }
 
+button{
+	
+
+}
+
+.btn btn-info{
+	height: 3em;
+	width: 5em;
+	font-size: 1.1em;
+	background-color:#E9E581;
+	color:#020824;
+	font-family: Palatino Linotype;
+	padding-left: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.menuBar{
+	background-color:#020824;
+	padding: 1%;
+}
+
+
 #mainpic{
 	padding-bottom: 1%;
 	padding-right: 2%;
 	border-radius: 5em;
 }
+
 
 .imgcenter{
 	text-align: center;
