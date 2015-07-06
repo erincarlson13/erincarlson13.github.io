@@ -79,7 +79,7 @@ button{
 	background-position: center;
 	min-height: 500px;
 	max-width: 100%;
-	padding-top: 0%;
+	padding-top: 5%;
 }
 
 
@@ -114,6 +114,11 @@ button{
 	padding-top: 1%;
 	padding-right: 3%;
 
+}
+
+.school{
+	padding-top: 1%;
+	padding-right: 3%;
 }
 
 .techAss{
