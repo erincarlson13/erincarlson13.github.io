@@ -117,6 +117,7 @@ li {
 .navbar.navbar-transparent{
 	margin-bottom: 0;
 	background-image: none;
+	background: transparent;
 }
 
 .techAssociate{
