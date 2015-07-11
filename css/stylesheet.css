@@ -85,9 +85,7 @@ li {
 }
 
 
-#navbar{
-	margin-bottom: 0;
-}
+
 
 #bio{
 	padding-right: 20%;
@@ -116,7 +114,7 @@ li {
 	min-width: 100%;
 }
 
-.navbar{
+.navbar.navbar-transparent{
 	margin-bottom: 0;
 }
 
