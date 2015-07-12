@@ -115,14 +115,7 @@ li {
 	min-width: 100%;
 }
 
-.navbar.navbar-transparent{
-	margin-bottom: 0;
-	opacity: 0.8;
-	position: fixed;
-	background: white;
-	width: 100%;
-	border-radius: 0px;
-}
+
 
 .navbar.navbar-default{
 	position: fixed;
@@ -130,6 +123,15 @@ li {
 	border-radius: 0px;
 	opacity: 1;
 	background: white;
+}
+
+.navbar.navbar-transparent{
+	margin-bottom: 0;
+	opacity: 0.8;
+	position: fixed;
+	background: white;
+	width: 100%;
+	border-radius: 0px;
 }
 
 .techAssociate{
