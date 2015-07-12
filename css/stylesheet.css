@@ -118,6 +118,7 @@ li {
 	margin-bottom: 0;
 	background-color: #3D423A;
 	opacity: 0.6;
+	filter: alpha(opacity:60);
 }
 
 .techAssociate{
