@@ -123,6 +123,10 @@ li {
 	border-radius: 0px;
 }
 
+.navbar.navbar-default{
+	position: fixed;
+}
+
 .techAssociate{
 	padding-top: 1%;
 	padding-right: 3%;
