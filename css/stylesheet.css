@@ -117,10 +117,8 @@ li {
 .navbar.navbar-transparent{
 	margin-bottom: 0;
 	background-color: transparent;
-	background: transparent;
-	border-color: transparent;
 	opacity: 0.6;
-	filter: alpha(opacity=60);
+	position: fixed;
 }
 
 .techAssociate{
