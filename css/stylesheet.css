@@ -129,6 +129,14 @@ li {
 	background: white;
 }
 
+.navbar.navbar-transparent{
+	width: 100%;
+	border-radius: 0px;
+	opacity: .8;
+	background: white;
+	position: fixed;
+}
+
 
 .techAssociate{
 	padding-top: 1%;
