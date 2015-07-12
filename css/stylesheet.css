@@ -141,13 +141,10 @@ li {
 	padding-top: 1%;
 	padding-right: 3%;
 	text-align: center;
-
-.techAssociate{
-	padding-top: 1%;
-	padding-right: 3%;
-	text-align: center;
-
-}
+	background-color: black;
+	color: white;
+	vertical-align: middle;
+	padding-bottom: 3%
 
 .school{
 	padding-top: 1%;
