@@ -115,7 +115,13 @@ li {
 	min-width: 100%;
 }
 
-
+.navbar{
+	position: fixed;
+	width: 100%;
+	border-radius: 0px;
+	opacity: 1;
+	background: white;
+}
 
 .navbar.navbar-default{
 	position: fixed;
