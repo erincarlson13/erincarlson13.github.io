@@ -116,7 +116,6 @@ li {
 
 .navbar.navbar-transparent{
 	margin-bottom: 0;
-	background-color: transparent;
 	opacity: 0.6;
 	position: fixed;
 }
