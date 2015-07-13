@@ -86,7 +86,9 @@ li {
 }
 
 
-
+.img{
+	float:center;
+}
 
 #bio{
 	padding-right: 20%;
