@@ -214,12 +214,14 @@
         <ul>
         	<li>Define a set of intelligent default governing settlngs for end users, with the possibility for administrator override</li>
         	<li>Surface a variety of server governing controls to administrators</li>
-        	<li>Expose a set of query statistics and functionality so that business analyst can gauge the impact and performance of their queries</li>
+        	<li>Expose a set of query statistics and functionality so that business analyst can gauge the impact and performance of his/her queries</li>
         	<li>Augment the alerting capabilities to ensure administrators are aware of long-running queries</li>
         </ul>
         </p>
-      <h3>USER STORY</h3>
+      <h2>USER STORY</h2>
       <p>As an administrator, I want to define a set of query size limit controls so that my users are running better-performing queries that serves the double purpose of not stressing the underlying enterprise resources.</p>
+      <h3>DETAILS</h3>
+        <p>In order to do this, we should surface a setting in the Server Administration properties dialog that empowers administrators specify how many total rows that they feel comfortable sending to the database server. If exceeded, the error message ought to instruct users to contact their administrators to increase the number of allowed rows.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -242,7 +244,7 @@
       </div>
       <div class="modal-body">
         <h2>PORTFOLIO ITEM</h2>
-        <p>Governed Data Discovery | How to Ensure a Win-Win Outcome that IT Administrators, BI Users, and Business Analysts can Agree On</p>
+        <p><b>Governed Data Discovery | How to Ensure a Win-Win Outcome that IT Administrators, BI Users, and Business Analysts can Agree On</b></p>
         <p>As a BI administrator, I want to know that I will be able to provide a best-in-class experience to my data analysts while balancing the needs of the IT department, so that the power of data discovery is balanced by system- and IT-defined governance.</p>
         <h3>DETAILS</h3>
         <p>The proliferation of desktop data analysis tools connecting directly to enterprise resources frequently results in stressed or failing IT resources. Customers frequently cite scenarios where servers are brought down by adhoc queries made against at-capacity database servers as the most common problem. The ultimate result of these hardware failure scenarios is additional stress on system administrators who are expected to triage such situations, service disruptions for BI users using standard reports, and frustration with respect to performance on the business analyst side.</p>
