@@ -153,6 +153,11 @@ li {
 	vertical-align: middle;
 	margin-bottom: 3%
 
+
+.row{
+	padding-bottom:3%;
+}
+
 .school{
 	padding-top: 1%;
 	padding-right: 3%;
