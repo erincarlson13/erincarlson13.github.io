@@ -1,11 +1,11 @@
 body{
 	background-color: #f2f2f2;
-	font-family: Palatino Linotype;
+	font-family: Open Sans;
 
 }
 
 h1{
-	font-family: Palatino Linotype;
+	font-family: Open Sans;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	font-size:1.5em;
@@ -14,20 +14,20 @@ h1{
 }
 
 h2 {
-	font-family: Palatino Linotype;
+	font-family: Open Sans;
 	padding-top:1%;
 	font-size:2em;
 	padding-bottom:3%;
 }
 
 h3{
-	font-family: Palatino Linotype;
+	font-family: Open Sans;
 	padding-top:1%;
 	font-size:1.2em;
 }
 
 h4 {
-	font-family: Palatino Linotype;
+	font-family: Open Sans;
 	text-align: center;
 }
 
@@ -58,7 +58,7 @@ li {
 	font-size: 1.1em;
 	background-color:#E9E581;
 	color:#020824;
-	font-family: Palatino Linotype;
+	font-family: Open Sans;
 	padding-left: 3%;
 	padding-top: 2%;
 	padding-bottom: 2%;
