@@ -1,113 +1,93 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
 	background-color: #f2f2f2;
-	font-family: sans-serif;
+	font-family: "Montserrat", sans-serif;
+	padding-top: 40px;
 
 }
 
 h1{
-	font-family: sans-serif;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	font-size:1.5em;
+	font-family: "Montserrat", sans-serif;
+	padding-top: 5%;
+	padding-bottom: 3%;
+	font-size: 2.5em;
 	font-weight:bold;
-	text-align: center;
 }
 
 h2 {
-	font-family: sans-serif;
-	padding-top:1%;
-	font-size:2em;
-	padding-bottom:3%;
+	font-family: "Montserrat", sans-serif;
+	padding-top: 1%;
+	padding-bottom: 3%;
 }
 
 h3{
-	font-family: sans-serif;
-	padding-top:1%;
-	font-size:1em;
+	font-family: "Montserrat", sans-serif;
+	font-size:2.5em;
+	padding-top: 1%;
+	padding-bottom: 3%;
+	font-weight: bold;
 }
 
 h4 {
-	font-family: sans-serif;
-	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	text-align: left;
+	padding-bottom: 2%;
+	font-weight: bold;
 }
 
 h5 {
-	text-align: center;
+	text-align: left;
 	font-size: 1em;
+	font-family: "Montserrat", sans-serif;
+
 }
 
+
 p {
-	font-size: 1.0em;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	font-family: "Montserrat", sans-serif;
+
 }
 
 li {
-	font-size: 1.1em;
-	padding-left: 2%;
+	font-size: 1.3em;
+	font-family: "Montserrat", sans-serif;
+
 }
 
-.balch {
-	padding-bottom: 3%;
-	display: block;
+section {
+  padding-top: 4%;
+  padding-bottom: 3%;
 }
 
-
-
-.btn btn-info{
-	height: 3em;
-	width: 5em;
-	font-size: 1.1em;
-	background-color:#E9E581;
-	color:#020824;
-	font-family: Open Sans;
-	padding-left: 3%;
-	padding-top: 2%;
-	padding-bottom: 2%;
+section h2 {
+	font-size: 2.5em;
 }
 
-.menuBar{
-	background-color:#020824;
-	padding: 1%;
+a {
+  color:#40E0D0;
 }
 
 
-#mainpic{
-	padding-bottom: 1%;
-	padding-right: 2%;
-	padding-top: 5%;
-	border-radius: 5em;
-}
-
-
-.imgcenter{
-	text-align: center;
-	padding-bottom: 1%;
-}
-
-.jumbotron{
-	background-image: url(../cherryblossoms.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	min-height: 500px;
-	max-width: 100%;
-	padding-top: 5%;
-}
-
-
-.img{
-	float:center;
-}
-
-#bio{
-	padding-right: 20%;
-	padding-left:20%;
-	font-size: .8em;
-}
+/* High Level */
 
 .col-md-4{
 	padding-top:2%;
 }
 
+.col-md-5{
+	padding-top:2%;
+}
+
 .col-md-6{
+	padding-top:2%;
+}
+
+.col-md-7{
 	padding-top:2%;
 }
 
@@ -118,11 +98,7 @@ li {
 .container{
 	padding-bottom: 3%;
 	padding-top: 3%;
-}
-
-
-.blossoms{
-	min-width: 100%;
+	width: 100%;
 }
 
 .media{
@@ -138,64 +114,304 @@ li {
 	font-size: 2em;
 }
 
+
+/* Navigation */
+
 .navbar{
-	width: 100%;
-	border-radius: 0px;
-	opacity: 1;
-	background: white;
-}
-
-.navbar.navbar-default{
-	width: 100%;
-	border-radius: 0px;
-	opacity: 1;
-	background: white;
-}
-
-.navbar.navbar-transparent{
-	width: 100%;
-	border-radius: 0px;
-	opacity: .8;
-	background: white;
+	padding-top: 0;
 	position: fixed;
+	max-height: 7%;
+	width: 100%;
+	border-radius: 0;
+
 }
 
-.oldWork{
+.navbar h2{
+	padding:none;
+}
+
+.nav-link{
+	margin-right: 1.5em;
+	margin-bottom: 1%;
+
+
+}
+
+.nav-link:active , .nav-link:hover , .nav-link:focus { 
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: bold;
+    border-bottom: 3px solid #40E0D0;
+
+}
+
+
+.navbar-toggler{  
+	background:transparent;
+
+}
+
+
+.nav-link , .navbar-brand{ 
+	cursor: pointer;
+}
+
+.navbar-brand h2 {
+	color:#40E0D0;
+	padding-top: 7%;
+}
+
+#navbarResponsive{
+	float: right;
+}
+
+.navbar-collapse{
+ 	justify-content: flex-end;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.navbar a.hover{
+	color:#40E0D0;
+}
+
+
+@media screen and (max-width: 600px) {
+  #main-navigation a {
+    float: none;
+    display: block;
+
+  }
+}
+
+/*
+
+#main-navigation {
+	max-height: 7%;
+	border-radius: 0;
+	border-bottom: none;
+}
+
+.nav-link.active, .nav-link:focus, .nav-link:hover {
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: bold;
+    border-bottom: 3px solid #40E0D0;
+}
+
+#porfolio-tab .nav-item a{
+     color: black;
+     text-decoration:none;
+}
+
+#porfolio-tab .nav-item a:hover a:focus {
+    color: black;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+/* Lead Container */
+
+.lead-container{
+	width:100%;
+	position: relative;
+  	margin: 0 auto;
+  	padding-bottom: 0;
+
+}
+
+.lead-text h1{
+	position: absolute;
+  	top: 0; 
+  	width: 100%;
+  	padding-top: 5%;
+  	padding-left: 10%;
+  	color: black;
+  	text-align: left;
+}
+
+.header{
+ 	background-image: url('../images/erin-carlson-leading-image.JPG');
+ 	background-attachment: fixed;
+ 	background-size: cover;
+ 	background-position: center;
+}
+ 
+
+
+/* Button */
+
+.btn btn-info{
+	height: 3em;
+	width: 5em;
+	font-size: 1.1em;
+	background-color:#E9E581;
+	color:#020824;
+	font-family: Open Sans;
+	padding-left: 3%;
 	padding-top: 1%;
-	text-align: left;
-	vertical-align: middle;
-	margin-bottom: 3%
+	padding-bottom: 2%;
+}
+
+/* Skills */
+
+.call-out{
+	line-height: 10pt;
+}
+
+.call-out a{
+	text-decoration-color: white;
+}
+
+.kpis{
+	background-color: #40E0D0;
+	margin-right: -15px;
+	margin-left: -30px;
+	padding-bottom: 3%;
+	text-align: center;
+}
 
 
-.row{
+.kpis a {
+	color: white;
+	font-size: 1.5em;
+}
+
+
+
+/* Portfolio */
+
+
+#portfolio .row {
 	padding-bottom:3%;
 }
 
-.school{
-	padding-top: 1%;
-	padding-right: 3%;
+#portfolio h3 {
+	background-color: #40E0D0;
+	margin-left: -90px;
+	margin-right: -85px;
+	padding-left: 90px;
+	padding-top:3%;
 }
 
-.schoolText{
-	text-align:center;
-	padding-top: 3%;
+#portfolio h4 {
+	color: #39CCCC;
+	font-weight: bold;
+	font-size: 1.5em;
 }
 
-.techAss{
-	color: black;
-	padding-top: 3%;
+#portfolio a {
+	color: #39CCCC;
+	font-weight:bold;
+}
+
+
+
+
+
+/* Resume */
+
+
+
+#aws{
+	min-height: 800px;
+	margin-right: -30px;
+	margin-left: -30px;
+	padding-top: 2%;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 5%;
+}
+
+#aws-title{
+	background-color: #40E0D0;
+	margin-right: -30px;
+	margin-left: -30px;
+	padding-left: 45px;
+	padding-right: 30px;
+	padding-top: 2%;
+}
+
+
+#aws-pic{
+	padding-bottom: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+}
+
+#resume a {
+	color: #39CCCC;
+}
+
+#resume h4{
+	font-weight: bold;
+}
+
+#mstr-title{
+	background-color: #40E0D0;
+	margin-right: -45px;
+	margin-left: -45px;
+	padding-left: 45px;
+	padding-right: 30px;
+	padding-top: 2%;
+}
+
+#mainpic{
 	padding-bottom: 3%;
-	font-size: 2em;
+	padding-right: 2%;
+	padding-top: 5%;
 }
 
-.techAssociate{
-	float:left;
+#additional-work{
+	min-height: 300px;
+	background-color: #40E0D0;
+	width:100%;
+
 }
 
-.techAssociate2{
-	margin-left: 2%;
+#additional-work h4{
+	font-weight:bold;
+	padding-bottom:2%;
 }
 
-.text{
+/* Education */
+
+
+.imgcenter{
+	text-align: left;
+	padding-bottom: 2%;
+}
+
+#education{
+	margin-bottom: 3%;
+	padding-bottom: 5%;
+}
+
+
+
+
+/* Footer */
+
+footer {
+	background-color: black;
+	margin-top: 3%;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	padding-left: 5%;
+}
+
+footer p {
 	text-align:center;
+	color:#39CCCC;
+	font-weight:bold;
 }
+
+
